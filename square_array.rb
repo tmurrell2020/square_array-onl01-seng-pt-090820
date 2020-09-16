@@ -6,4 +6,6 @@ def square_array(array)
   array.each do |num|
     squares.push(num * num)
   end
+
+  puts squares
 end
